@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct NotificationResponseModel : Codable, Hashable{
+public struct NotificationResponseModel : Codable, Hashable{
     
     var Type1: Int? = -1
     var MxRouteId: Int? = -1
